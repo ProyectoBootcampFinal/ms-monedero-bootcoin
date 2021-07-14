@@ -1,0 +1,12 @@
+server:
+   port: 8090
+   error:
+      include-message: always
+      include-binding-erros: always
+
+spring:
+  application:
+    name: ms-monedero-bootcoin
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:tSJKvHQlyhdcAFHh@cluster0.pwzlu.mongodb.net/bank?retryWrites=true&w=majority
